@@ -18,3 +18,6 @@ exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla p
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1002
 
 # Escreva sua solução abaixo
+R = float(input())
+A = (3.14159 * (R**2))
+print(f"A = {A:.4f}")
