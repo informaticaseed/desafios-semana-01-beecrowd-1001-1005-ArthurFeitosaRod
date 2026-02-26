@@ -12,3 +12,6 @@ você receberá "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
 # Escreva sua solução abaixo
+A,B = map(int, input().split())
+X = A+B
+print(X)
