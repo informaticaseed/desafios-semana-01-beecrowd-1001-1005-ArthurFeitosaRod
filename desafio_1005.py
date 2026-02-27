@@ -18,3 +18,6 @@ de imprimir o fim de linha após o resultado, caso contrário, você receberá
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
 # Escreva sua solução abaixo
+A, B = map(float, input().split())
+M = (A * 3.5 + B * 7.5)/11
+print(f"MEDIA = {M}")
